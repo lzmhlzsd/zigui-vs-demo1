@@ -1,0 +1,487 @@
+[{
+    "id": "A_CNC001",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "hangjia",
+    "url": "model/hangjia/hangjia.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": -270,
+        "y": 0,
+        "z": 50
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-260, 50, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC002",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP05",
+    "url": "model/OP05/OP05.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": -297,
+        "y": 0,
+        "z": 70
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-257, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC003",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP10",
+    "url": "model/OP10/OP10.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": -246,
+        "y": 0,
+        "z": 60
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-216, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC004",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP10",
+    "url": "model/OP10/OP10.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": -206,
+        "y": 0,
+        "z": 60
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-186, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC005",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP25",
+    "url": "model/OP25/OP25.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": -198,
+        "y": 0,
+        "z": 70
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-150, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC006",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP30",
+    "url": "model/OP30/OP30.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": -135,
+        "y": -7,
+        "z": 65
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-105, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC007",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP30",
+    "url": "model/OP30/OP30.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": -90,
+        "y": -7,
+        "z": 65
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-60, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC008",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP10",
+    "url": "model/OP10/OP10.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": -48,
+        "y": 0,
+        "z": 60
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-20, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC009",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP55",
+    "url": "model/OP55/OP55.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": -38,
+        "y": 0,
+        "z": 70
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [0, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC010",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP60",
+    "url": "model/OP60/OP60.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": 15,
+        "y": 0,
+        "z": 60
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [45, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC011",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP70",
+    "url": "model/OP70/OP70.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": 45,
+        "y": 0,
+        "z": 70
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [80, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC012",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP80",
+    "url": "model/OP80/OP80.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": 70,
+        "y": 0,
+        "z": 70
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [120, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC013",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP90",
+    "url": "model/OP90/OP90.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": 120,
+        "y": 0,
+        "z": 70
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [170, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC014",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP100",
+    "url": "model/OP100/OP100.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": 155,
+        "y": 0,
+        "z": 70
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [205, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC015",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "OP110",
+    "url": "model/OP110/OP110.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": 200,
+        "y": 0,
+        "z": 70
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [235, 60, 50]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC016",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "ROBOT",
+    "url": "model/ROBOT/ROBOT.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": -180,
+        "y": 50,
+        "z": 54
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-165, 85, 45]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC017",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "ROBOT",
+    "url": "model/ROBOT/ROBOT.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": -100,
+        "y": 50,
+        "z": 54
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-85, 85, 45]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC018",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "ROBOT",
+    "url": "model/ROBOT/ROBOT.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "position": {
+        "x": 60,
+        "y": 50,
+        "z": 54
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [75, 85, 45]
+    },
+    "display2": {
+
+    }
+}]
