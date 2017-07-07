@@ -14,7 +14,7 @@ var rooms = {
 var server_url = "http://192.168.60.2:8088/api/services/app/wimiVisual"
 
 app.use( express.static( path.join( __dirname, 'web' ) ) );
-server.listen( 5000, function () {
+server.listen( 8000, function () {
     console.log( 'server staring..., port: 5000' );
 } );
 
