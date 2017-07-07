@@ -205,7 +205,7 @@ setInterval( function () {
     // getStatusRatio( 'B', function ( res ) {
     //     io.to( 2 ).emit( 'getStatusRatio', res )
     // } )
-}, 10000 )
+}, 50000 )
 
 function getMacStatus_s( room, callback ) {
     request.get( server_url + '/getMacStatus',
@@ -285,10 +285,10 @@ function getMacStatus( room, callback ) {
             //mac_id: i + 1,
             mac_no: dt[i].no,
             mac_name: dt[i].name,
-            status_id: Math.round( Math.random() * 4 + 1 ),
+            status_id: Math.round( Math.random() * 2 + 1 ),
             duration: Math.round( Math.random() * 50 + 30 ),  //s
             rhythm: Math.round( Math.random() * 10 + 75 ),
-            yield: Math.round( Math.random() * 100 + 900 )
+            yield: Math.round( Math.random() * 10 + 50 )
         } )
     }
     callback( result )
@@ -307,11 +307,29 @@ function getAlarmInfo( room, callback ) {
     var m = date.getMinutes();
     var s = date.getSeconds();
     result.data.total = parseInt(( h * 3600 + 60 * m + s ) / 80 )
-
+    var dt = [
+        { no: 'OP05', name: '上料' },
+        { no: 'OP10', name: '粗车小端' },
+        { no: 'OP20', name: '粗车大端' },
+        { no: 'OP25', name: '激光打标' },
+        { no: 'OP30', name: '砖直油孔' },
+        { no: 'OP40', name: '砖斜油孔' },
+        { no: 'OP50', name: '精车' },
+        { no: 'OP55', name: '抽检' },
+        { no: 'OP60', name: '清洗' },
+        { no: 'OP70', name: '真空干燥' },
+        { no: 'OP80', name: '泄漏检测' },
+        { no: 'OP90', name: '在线检测' },
+        { no: 'OP100', name: '影像检测' },
+        { no: 'OP110', name: '装箱系统' },
+        { no: 'ROBOT1', name: '机械手1' },
+        { no: 'ROBOT2', name: '机械手2' },
+        { no: 'ROBOT3', name: '机械手3' }
+    ]
     for ( var i = 0; i < parseInt( 10 ); i++ ) {
         var ra1 = Math.round( Math.random() * 22 + 1 )
         var ra2 = Math.round( Math.random() * 99 + 1 )
-        var name = room + '0' + numformate( ra1 )
+        var name = dt[i].no
         var alarm = room + 'R' + numformate( ra2 )
         var time = date.getTime() - i * Math.round( Math.random() * 5 + 1 ) * 60 * 1000
         result.data.list.push( {
@@ -334,7 +352,7 @@ function getYieldOfHour( room, callback ) {
             result.data.push(0)
         }
         else if ( i >= 8 && i <= h ) {
-            result.data.push(Math.round( Math.random() * 100 + 900 ))
+            result.data.push(Math.round( Math.random() * 10 + 50 ))
         }
         else if ( i > h && i < 24 ) {
             result.data.push(null)
@@ -377,7 +395,7 @@ function getRealData( room, callback ) {
     var result = {
         status: 0,
         data: {
-            oee: Math.round( Math.random() * 20 + 60 ),
+            oee: Math.round( Math.random() * 10 + 85 ),
             target: 1000,
             yield: 800,
             qualified: Math.round( Math.random() * 5 + 90 ),
