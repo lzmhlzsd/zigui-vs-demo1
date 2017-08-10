@@ -51,14 +51,14 @@ setInterval( function () {
         console.log( res );
         io.to( 1 ).emit( 'getMacStatus', res )
     } )
-}, 5000 )
-
-setInterval( function () {
     getAlarmInfo_s( 30056, function ( res ) {
         io.to( 1 ).emit( 'getAlarmInfo', res )
     } )
-    getStatusRatio_s( 30056, function ( res ) {
-        io.to( 1 ).emit( 'getStatusRatio', res )
+    getProductLineInfo_s( 30056, function ( res ) {
+        io.to( 1 ).emit( 'getRealData', res )
+    } )
+    getYieldOfHour_s( 30056, function ( res ) {
+        io.to( 1 ).emit( 'getYieldOfHour', res )
     } )
 }, 10000 )
 
@@ -82,13 +82,22 @@ function getAlarmInfo_s( room, callback ) {
         } )
 }
 
-function getStatusRatio_s( room, callback ) {
-    request.post( server_url + '/getStatusRatio',
+function getProductLineInfo_s( room, callback ) {
+    request.post( server_url + '/getProductLineInfo',
         { form: { id: room } }, function ( error, response, data ) {
             var d = JSON.parse( data );
-            console.log('/getStatusRatio')
+            console.log('/getProductLineInfo')
             console.log(d.result)
             callback( d.result )
         } )
 }
 
+function getYieldOfHour_s( room, callback ) {
+    request.post( server_url + '/getYieldOfHour',
+        { form: { id: room } }, function ( error, response, data ) {
+            var d = JSON.parse( data );
+            console.log('/getYieldOfHour')
+            console.log(d.result)
+            callback( d.result )
+        } )
+}
