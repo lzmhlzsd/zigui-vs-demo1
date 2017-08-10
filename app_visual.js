@@ -64,7 +64,7 @@ setInterval( function () {
 
 function getMacStatus_s( room, callback ) {
     request.post( server_url + '/getMacStatus',
-        { form: { pid: room } }, function ( error, response, data ) {
+        { form: { id: room } }, function ( error, response, data ) {
             var d = JSON.parse( data );
             console.log('/getMacStatus')
             console.log(d.result)
@@ -74,7 +74,7 @@ function getMacStatus_s( room, callback ) {
 
 function getAlarmInfo_s( room, callback ) {
     request.post( server_url + '/getAlarmInfo',
-        { form: { pid: room } }, function ( error, response, data ) {
+        { form: { id: room } }, function ( error, response, data ) {
             var d = JSON.parse( data );
             console.log('/getAlarmInfo')
             console.log(d.result)
@@ -84,7 +84,7 @@ function getAlarmInfo_s( room, callback ) {
 
 function getStatusRatio_s( room, callback ) {
     request.post( server_url + '/getStatusRatio',
-        { form: { pid: room } }, function ( error, response, data ) {
+        { form: { id: room } }, function ( error, response, data ) {
             var d = JSON.parse( data );
             console.log('/getStatusRatio')
             console.log(d.result)
