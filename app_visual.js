@@ -65,39 +65,39 @@ setInterval( function () {
 function getMacStatus_s( room, callback ) {
     request.post( server_url + '/getMacStatus',
         { form: { id: room } }, function ( error, response, data ) {
-            //var d = JSON.parse( data );
+            var d = JSON.parse( data );
             console.log('/getMacStatus')
-            console.log(data)
-            callback( data )
+            console.log(d)
+            callback( d )
         } )
 }
 
 function getAlarmInfo_s( room, callback ) {
     request.post( server_url + '/getAlarmInfo',
         { form: { id: room } }, function ( error, response, data ) {
-            //var d = JSON.parse( data );
+            var d = JSON.parse( data );
             console.log('/getAlarmInfo')
-            console.log(data)
-            callback( data )
+            console.log(d)
+            callback( d )
         } )
 }
 
 function getProductLineInfo_s( room, callback ) {
     request.post( server_url + '/getProductLineInfo',
         { form: { id: room } }, function ( error, response, data ) {
-            //var d = JSON.parse( data );
+            var d = JSON.parse( data );
             console.log('/getProductLineInfo')
-            console.log(data)
-            callback( data )
+            console.log(d)
+            callback( d )
         } )
 }
 
 function getYieldOfHour_s( room, callback ) {
     request.post( server_url + '/getYieldOfHour',
         { form: { id: room } }, function ( error, response, data ) {
-            //var d = JSON.parse( data );
+            var d = JSON.parse( data );
             console.log('/getYieldOfHour')
-            console.log(data)
-            callback( data )
+            console.log(d)
+            callback( d )
         } )
 }
